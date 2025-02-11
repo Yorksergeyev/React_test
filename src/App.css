@@ -1,0 +1,48 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+nav {
+  margin: 20px 0;
+  padding: 10px;
+  width: auto;
+  background: #333;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  padding: 5px 10px;
+  transition: 0.2s;
+}
+
+nav a:hover {
+  color: rgb(13, 14, 14);
+  background-color: #858585;
+  border-radius: 50%;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+footer {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
